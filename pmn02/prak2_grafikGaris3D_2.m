@@ -1,0 +1,10 @@
+x = -3:0.2:3;
+y = x;
+[X,Y] = meshgrid(x,y);
+R = sqrt(X.^2+Y.^2);
+Z = exp(-R) .* cos(R);
+mesh(X,Y,Z);
+xlabel('X');
+ylabel('Y');
+zlabel('Z');
+title('Grafik Permukaan 3D: MESH PLOT');
