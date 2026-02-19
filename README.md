@@ -1,1 +1,1 @@
-Pengen dokumentasi aja
+Pengen dokumentasi aja, dah gakepake sih
